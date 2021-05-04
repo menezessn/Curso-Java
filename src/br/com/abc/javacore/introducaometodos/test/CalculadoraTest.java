@@ -13,5 +13,9 @@ public class CalculadoraTest {
 
         System.out.println("Continuou");
 
+        int[] numeros = {1,2,3,4,5};
+        calc.somaArray(numeros);
+        calc.somaVarArgs(1,2,3,4,5);
+
     }
 }
